@@ -10,7 +10,7 @@ import {
     ThirdWhiteSection,
   } from './ui';
   
-  export const CreditoPymeApp = () => {
+  export const CoincityApp = () => {
     return (
       <main className="main">
         <Navbar />

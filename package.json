@@ -1,9 +1,9 @@
 {
-  "name": "credito-pyme",
+  "name": "coincity",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://UlisesPineda.github.io/CredMex",
+  "homepage": "https://coincity-games.github.io/site",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

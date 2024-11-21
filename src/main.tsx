@@ -6,7 +6,7 @@ import { AppRouter } from './router/AppRouter.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename='/site/'>
       <AppRouter />
     </BrowserRouter>
   </React.StrictMode>,

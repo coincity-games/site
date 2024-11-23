@@ -21,7 +21,7 @@ export const useForm = <T extends object>( initFormState:T ) => {
 
     const sendForm = async( formulario:FormData ) => {
       
-        await fetch('https://formsubmit.co/ajax/coincity.games@outlook.com', {
+        await fetch('https://formsubmit.co/ajax/pedrosanchezpineda1982@gmail.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

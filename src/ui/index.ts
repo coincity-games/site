@@ -16,7 +16,5 @@ export * from './sections/FormSection';
 export * from './sections/ContactSection';
 
 //Pages
-export * from './pages/PrivacyPage';
-export * from './pages/CookiesPage';
 export * from './pages/NotFound';
 

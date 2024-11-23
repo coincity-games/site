@@ -1,22 +1,22 @@
 export const dataImages = [
     {
-        slideTitle: 'Financiamiento para pequeños negocios',
-        slideAlt: 'Financiamiento para pequeños negocios y PyMEs',
-        slideUrl: `${ import.meta.env.BASE_URL }/img/credito-pequenos-negocios.jpg`,
+        slideTitle: 'Maquinas Cazapeluches',
+        slideAlt: 'Maquinas Vending Cazapeluches',
+        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-cazapeluches.jpg`,
     },
     {
-        slideTitle: 'Financiamiento Para Empresas Medianas',
-        slideAlt: 'Financiamiento Productivo para Medianas Empresas',
-        slideUrl: `${ import.meta.env.BASE_URL }/img/credito-medianas-empresas.jpg`,
+        slideTitle: 'Maquinas Vending Bebidas',
+        slideAlt: 'Maquinas vending para bebidas',
+        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-bebidas.jpg`,
     },
     {
-        slideTitle: 'Financiamiento Especializado Para Grandes Empresas',
-        slideAlt: 'Financiamiento para Grandes Empresas y Corporativos',
-        slideUrl: `${ import.meta.env.BASE_URL }/img/credito-empresarial.jpg`,
+        slideTitle: 'Maquinas Vending Snacks',
+        slideAlt: 'Maquinas vending para bebidas',
+        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-snacks.jpg`,
     },
     {
-        slideTitle: 'Financiamientos para Constructores',
-        slideAlt: 'Crédito para construcción y desarrollos inmobiliarios',
-        slideUrl: `${ import.meta.env.BASE_URL }/img/credito-constructores.jpg`,
+        slideTitle: 'Proyectos Especiales',
+        slideAlt: 'Fabricamos vending para proyectos especiales',
+        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-proyectos-especiales.jpg`,
     },
 ];

@@ -27,7 +27,7 @@ export const MenuMovil = () => {
         onClick={ returnTop }
       >
         <div className="logo-mobile-container">
-          <img src={`${ import.meta.env.BASE_URL }/img/isotipo-coral.png`} alt="Logotipo de Crédito PyME México versión móvil" />
+          <img src={`${ import.meta.env.BASE_URL }/img/isotipo-coral.png`} alt="Logotipo de Coincity" />
         </div>
       </Link>
       <div 

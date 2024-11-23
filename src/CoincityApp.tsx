@@ -1,13 +1,13 @@
 import { 
     ContactSection, 
-    FirstDarkSection, 
+    // FirstDarkSection, 
     Footer, 
     FormSection, 
     HeroeSection, 
     Navbar, 
     FirstWhiteSection, 
-    SecondWhiteSection, 
-    ThirdWhiteSection,
+    // SecondWhiteSection, 
+    // ThirdWhiteSection,
   } from './ui';
   
   export const CoincityApp = () => {
@@ -16,9 +16,9 @@ import {
         <Navbar />
         <HeroeSection />
         <FirstWhiteSection />
-        <SecondWhiteSection />
-        <FirstDarkSection />
-        <ThirdWhiteSection />
+        {/* <SecondWhiteSection /> */}
+        {/* <FirstDarkSection /> */}
+        {/* <ThirdWhiteSection /> */}
         <FormSection />
         <ContactSection />
         <Footer />

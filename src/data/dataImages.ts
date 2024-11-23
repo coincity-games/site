@@ -17,6 +17,6 @@ export const dataImages = [
     {
         slideTitle: 'Proyectos Especiales',
         slideAlt: 'Fabricamos vending para proyectos especiales',
-        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-proyectos-especiales.jpg`,
+        slideUrl: `${ import.meta.env.BASE_URL }/img/vending-proyecto-especial.jpg`,
     },
 ];

@@ -4,35 +4,35 @@ const imgUrl = `${ import.meta.env.BASE_URL }/img/`;
 export const FirstWhiteSection = () => {
   return (
     <section className="white-section first-white-section">
-        <h2>Especialistas en Crédito PyME y Empresarial</h2>
-        <p>Analizamos cada caso de forma particular para identificar tu perfil financiero y sugerirte las mejores opciones de crédito, identificamos tus fortalezas financieras y comerciales dependiendo de tu giro, tamaño de tu negocio y proyecto de inversión</p>
+        <h2>Impulsa tu negocio con nuestras máquinas vending</h2>
+        <p>En Coincity, somos expertos en la compra, venta y renta de máquinas vending que combinan tecnología, diseño y funcionalidad.</p>
         <div className="figures-container">
           <div className="card-container">
             <img 
               src={`${ imgUrl }customer.png`} 
-              alt="Amplia experiencia en el sector crediticio" 
+              alt="Encuentra la máquina que se adapta perfectamente a tu espacio y necesidades" 
               className="container-img"
             />  
-            <h3 className="subtitle-section">Amplia Experiencia</h3>
-            <p>Más de 15 años en el sector crediticio</p>
+            <h3 className="subtitle-section">Una maquina para cada necesidad</h3>
+            <p>Encuentra la máquina que se adapta perfectamente a tu espacio y necesidades.</p>
           </div>  
           <div className="card-container">
             <img 
               src={`${ imgUrl }folder.png`} 
-              alt="Abanico de opciones crediticias" 
+              alt="Precios para cada bolsillo" 
               className="container-img"
             />
-            <h3 className="subtitle-section">Diversidad de Opciones</h3>
-            <p>Portafolio amplio de Bancos y Financieras Reconocidas y Registradas</p>
+            <h3 className="subtitle-section">Precios para cada bolsillo</h3>
+            <p>Soluciones sin compromisos a largo plazo, perfectas para eventos o proyectos específicos.</p>
           </div>
           <div className="card-container">
             <img 
               src={`${ imgUrl }efectivity.png`} 
-              alt="Rapidez en la gestión" 
+              alt="Diferentes opciones de pago" 
               className="container-img"
             />
-            <h3 className="subtitle-section">Eficiencia</h3>
-            <p>Agilidad en respuesta y rapidez en procesos de formalización</p>
+            <h3 className="subtitle-section">Diferentes opciones de pago</h3>
+            <p>Aumenta tus ingresos con una inversión mínima.</p>
           </div>
         </div>
     </section>

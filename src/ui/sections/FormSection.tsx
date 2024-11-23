@@ -19,7 +19,7 @@ export const FormSection = () => {
       <img src={`${ import.meta.env.BASE_URL }/img/informacion.jpg`} alt="Solicita más información" />
       <div className="info-icon"></div>
       <h2 className="colored-subtitle">Despeja todas tus dudas</h2>
-      <p>Si necesitas información adicional por favor envíanos tus datos de contacto y nos comunicaremos contigo para aclarar tus dudas o comenzar con tu trámite.</p>
+      <p>Si necesitas información adicional por favor envíanos tus datos de contacto y nos comunicaremos contigo para aclarar tus dudas o comenzar con tu compra.</p>
       <form
         onSubmit={ (e) => handleSubmit( e, formulario ) }
       >

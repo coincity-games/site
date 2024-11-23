@@ -34,8 +34,8 @@ export const Footer = () => {
             </span> */}
           </div>
           <div className="footer-block">
-            {/* <span>SOCIAL</span>
-            <span className="footer-links">
+            <span>SOCIAL</span>
+            {/* <span className="footer-links">
               <div className="twitter-icon icon"></div>
               &nbsp;
               <a href="https://twitter.com/credito_pyme_mx" target="_blank" rel="noreferrer noopener" title="Regálanos un RT 😊">TWITTER</a>

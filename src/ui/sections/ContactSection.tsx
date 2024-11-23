@@ -17,7 +17,7 @@ export const ContactSection = () => {
           <div className="contact-card">
             <a href="tel:+525571774470" className="tel-icon contact-icon" title="Llámanos 📱"></a>
             <big className="colored-subtitle">Teléfono</big>
-            <a href="tel:+525571774470" title="Llámanos 📱">222 428 88 04</a>
+            <a href="tel:+525571774470" title="Llámanos 📱">5571774470</a>
           </div>
           <div className="contact-card">
             <a className="mail-icon contact-icon"></a>

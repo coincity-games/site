@@ -9,5 +9,4 @@ export interface FormData {
     nombre: string;
     email: string;
     telefono: string;
-    monto: string;
 }

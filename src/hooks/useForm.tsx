@@ -21,7 +21,7 @@ export const useForm = <T extends object>( initFormState:T ) => {
 
     const sendForm = async( formulario:FormData ) => {
       
-        await fetch('https://formsubmit.co/ajax/creditopymemexico@outlook.com', {
+        await fetch('https://formsubmit.co/ajax/coincity.games@outlook.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -40,9 +40,9 @@ export const useForm = <T extends object>( initFormState:T ) => {
         const specialCharacter = /[`~!#$%^&*()_°¬|+\-=?;:"<>{}[\]\\/]/;
         const emailFormat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-        const { email, nombre, telefono, monto } = formulario;
+        const { email, nombre, telefono } = formulario;
     
-        if( email === '' || nombre === '' || telefono === '' || monto === '' ){
+        if( email === '' || nombre === '' || telefono === '' ){
           Swal.fire({
             title: 'Todos los campos son obligatorios',
             confirmButtonColor: '#FF5F62',
@@ -77,15 +77,6 @@ export const useForm = <T extends object>( initFormState:T ) => {
           return;
         }
         if( specialCharacter.test( telefono ) ){
-          Swal.fire({
-            title: 'Los caractéres especiales no son permitidos',
-            text: 'Revisa la información proporcionada',
-            confirmButtonColor: '#FF5F62',
-            color: '#272236',
-          }); 
-          return;
-        }
-        if( specialCharacter.test( monto ) ){
           Swal.fire({
             title: 'Los caractéres especiales no son permitidos',
             text: 'Revisa la información proporcionada',

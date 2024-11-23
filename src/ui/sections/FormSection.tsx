@@ -7,9 +7,8 @@ export const FormSection = () => {
     email: '',
     nombre: '',
     telefono: '',
-    monto: '',
   });
-  const { email, nombre, telefono, monto } = formulario;
+  const { email, nombre, telefono } = formulario;
 
 
   return (
@@ -46,13 +45,13 @@ export const FormSection = () => {
             onChange={ handleChange }
             value={ telefono }
           />
-          <label>Monto Solicitado</label>
+          {/* <label>Monto Solicitado</label>
           <input 
             type="text"
             name="monto" 
             onChange={ handleChange }
             value={ monto }
-          />
+          /> */}
           <button 
             className="form-button" 
             type="submit"
